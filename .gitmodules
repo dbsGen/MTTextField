@@ -1,0 +1,3 @@
+[submodule "inputTest/DTCoreText"]
+	path = inputTest/DTCoreText
+	url = git://github.com/Cocoanetics/DTCoreText.git
