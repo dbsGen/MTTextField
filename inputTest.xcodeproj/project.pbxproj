@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F19CE9D1623C25100F033A1 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 5F19CE9B1623C25100F033A1 /* LICENSE */; };
+		5F19CE9E1623C25100F033A1 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5F19CE9C1623C25100F033A1 /* README.md */; };
 		5F22BE5A1622A60900118B0E /* btn_person_item_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F22BE581622A60900118B0E /* btn_person_item_on.png */; };
 		5F22BE5B1622A60900118B0E /* btn_person_item.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F22BE591622A60900118B0E /* btn_person_item.png */; };
 		5F22BE5D1622A65300118B0E /* items.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5F22BE5C1622A65300118B0E /* items.plist */; };
 		5F2885CD16154F9900AD76C8 /* MTTextFieldCursor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F2885CC16154F9900AD76C8 /* MTTextFieldCursor.m */; };
 		5F2885DC1615A24F00AD76C8 /* MTTextObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F2885DB1615A24F00AD76C8 /* MTTextObject.m */; };
-		5F6BF0331623BB4700782B31 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 5F6BF0321623BB4700782B31 /* LICENSE */; };
-		5F6BF0351623BDA400782B31 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 5F6BF0341623BDA400782B31 /* README */; };
 		5FE23063161428F000CF029D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FE23062161428F000CF029D /* UIKit.framework */; };
 		5FE23065161428F000CF029D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FE23064161428F000CF029D /* Foundation.framework */; };
 		5FE23067161428F000CF029D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FE23066161428F000CF029D /* CoreGraphics.framework */; };
@@ -75,6 +75,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5F19CE9B1623C25100F033A1 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		5F19CE9C1623C25100F033A1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		5F22BE581622A60900118B0E /* btn_person_item_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_person_item_on.png; sourceTree = "<group>"; };
 		5F22BE591622A60900118B0E /* btn_person_item.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_person_item.png; sourceTree = "<group>"; };
 		5F22BE5C1622A65300118B0E /* items.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = items.plist; sourceTree = "<group>"; };
@@ -82,8 +84,6 @@
 		5F2885CC16154F9900AD76C8 /* MTTextFieldCursor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTTextFieldCursor.m; sourceTree = "<group>"; };
 		5F2885DA1615A24F00AD76C8 /* MTTextObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTTextObject.h; sourceTree = "<group>"; };
 		5F2885DB1615A24F00AD76C8 /* MTTextObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTTextObject.m; sourceTree = "<group>"; };
-		5F6BF0321623BB4700782B31 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		5F6BF0341623BDA400782B31 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		5FE2305E161428F000CF029D /* inputTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = inputTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FE23062161428F000CF029D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5FE23064161428F000CF029D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -243,6 +243,8 @@
 		5FE23068161428F000CF029D /* inputTest */ = {
 			isa = PBXGroup;
 			children = (
+				5F19CE9B1623C25100F033A1 /* LICENSE */,
+				5F19CE9C1623C25100F033A1 /* README.md */,
 				5F22BE581622A60900118B0E /* btn_person_item_on.png */,
 				5F22BE591622A60900118B0E /* btn_person_item.png */,
 				5FE230851614292400CF029D /* DTCoreText */,
@@ -258,8 +260,6 @@
 				5F2885CC16154F9900AD76C8 /* MTTextFieldCursor.m */,
 				5F2885DA1615A24F00AD76C8 /* MTTextObject.h */,
 				5F2885DB1615A24F00AD76C8 /* MTTextObject.m */,
-				5F6BF0321623BB4700782B31 /* LICENSE */,
-				5F6BF0341623BDA400782B31 /* README */,
 			);
 			path = inputTest;
 			sourceTree = "<group>";
@@ -447,8 +447,8 @@
 				5F22BE5A1622A60900118B0E /* btn_person_item_on.png in Resources */,
 				5F22BE5B1622A60900118B0E /* btn_person_item.png in Resources */,
 				5F22BE5D1622A65300118B0E /* items.plist in Resources */,
-				5F6BF0331623BB4700782B31 /* LICENSE in Resources */,
-				5F6BF0351623BDA400782B31 /* README in Resources */,
+				5F19CE9D1623C25100F033A1 /* LICENSE in Resources */,
+				5F19CE9E1623C25100F033A1 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
