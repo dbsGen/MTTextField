@@ -52,10 +52,6 @@
 		5F19CF6D1623C53200F033A1 /* UIDevice+DTSimpleVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F19CEF91623C53100F033A1 /* UIDevice+DTSimpleVersion.m */; };
 		5F19CF9E1623C53200F033A1 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 5F19CF3E1623C53100F033A1 /* LICENSE */; };
 		5F19CF9F1623C53200F033A1 /* Readme.markdown in Resources */ = {isa = PBXBuildFile; fileRef = 5F19CF3F1623C53100F033A1 /* Readme.markdown */; };
-		5F19D0F21623C57100F033A1 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 5F19D07B1623C57100F033A1 /* .gitignore */; };
-		5F19D0FB1623C57100F033A1 /* DTHTMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F19D0901623C57100F033A1 /* DTHTMLParser.m */; };
-		5F19D1211623C57100F033A1 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 5F19D0E11623C57100F033A1 /* LICENSE */; };
-		5F19D1221623C57100F033A1 /* readme.markdown in Resources */ = {isa = PBXBuildFile; fileRef = 5F19D0E21623C57100F033A1 /* readme.markdown */; };
 		5F22BE5A1622A60900118B0E /* btn_person_item_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F22BE581622A60900118B0E /* btn_person_item_on.png */; };
 		5F22BE5B1622A60900118B0E /* btn_person_item.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F22BE591622A60900118B0E /* btn_person_item.png */; };
 		5F22BE5D1622A65300118B0E /* items.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5F22BE5C1622A65300118B0E /* items.plist */; };
@@ -164,12 +160,6 @@
 		5F19CEF91623C53100F033A1 /* UIDevice+DTSimpleVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+DTSimpleVersion.m"; sourceTree = "<group>"; };
 		5F19CF3E1623C53100F033A1 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		5F19CF3F1623C53100F033A1 /* Readme.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Readme.markdown; sourceTree = "<group>"; };
-		5F19D07B1623C57100F033A1 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		5F19D07F1623C57100F033A1 /* DTFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTFoundation.h; sourceTree = "<group>"; };
-		5F19D08F1623C57100F033A1 /* DTHTMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTHTMLParser.h; sourceTree = "<group>"; };
-		5F19D0901623C57100F033A1 /* DTHTMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTHTMLParser.m; sourceTree = "<group>"; };
-		5F19D0E11623C57100F033A1 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		5F19D0E21623C57100F033A1 /* readme.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.markdown; sourceTree = "<group>"; };
 		5F22BE581622A60900118B0E /* btn_person_item_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_person_item_on.png; sourceTree = "<group>"; };
 		5F22BE591622A60900118B0E /* btn_person_item.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_person_item.png; sourceTree = "<group>"; };
 		5F22BE5C1622A65300118B0E /* items.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = items.plist; sourceTree = "<group>"; };
@@ -234,6 +224,7 @@
 			isa = PBXGroup;
 			children = (
 				5F19CEA71623C53100F033A1 /* DTCoreText-Info.plist */,
+				5F19D1411623CC5D00F033A1 /* Externals */,
 				5F19CEA91623C53100F033A1 /* Source */,
 			);
 			path = Core;
@@ -324,33 +315,19 @@
 			path = Source;
 			sourceTree = "<group>";
 		};
-		5F19D07A1623C57100F033A1 /* DTFoundation */ = {
+		5F19D1411623CC5D00F033A1 /* Externals */ = {
 			isa = PBXGroup;
 			children = (
-				5F19D07B1623C57100F033A1 /* .gitignore */,
-				5F19D07C1623C57100F033A1 /* Core */,
-				5F19D0E11623C57100F033A1 /* LICENSE */,
-				5F19D0E21623C57100F033A1 /* readme.markdown */,
+				5F19D1421623CC5D00F033A1 /* DTFoundation */,
+			);
+			path = Externals;
+			sourceTree = "<group>";
+		};
+		5F19D1421623CC5D00F033A1 /* DTFoundation */ = {
+			isa = PBXGroup;
+			children = (
 			);
 			path = DTFoundation;
-			sourceTree = "<group>";
-		};
-		5F19D07C1623C57100F033A1 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				5F19D07F1623C57100F033A1 /* DTFoundation.h */,
-				5F19D0801623C57100F033A1 /* Source */,
-			);
-			path = Core;
-			sourceTree = "<group>";
-		};
-		5F19D0801623C57100F033A1 /* Source */ = {
-			isa = PBXGroup;
-			children = (
-				5F19D08F1623C57100F033A1 /* DTHTMLParser.h */,
-				5F19D0901623C57100F033A1 /* DTHTMLParser.m */,
-			);
-			path = Source;
 			sourceTree = "<group>";
 		};
 		5FE23053161428F000CF029D = {
@@ -387,7 +364,6 @@
 		5FE23068161428F000CF029D /* inputTest */ = {
 			isa = PBXGroup;
 			children = (
-				5F19D07A1623C57100F033A1 /* DTFoundation */,
 				5F19CEA41623C53100F033A1 /* DTCoreText */,
 				5F19CE9B1623C25100F033A1 /* LICENSE */,
 				5F19CE9C1623C25100F033A1 /* README.md */,
@@ -490,9 +466,6 @@
 				5F19CF471623C53200F033A1 /* default.css in Resources */,
 				5F19CF9E1623C53200F033A1 /* LICENSE in Resources */,
 				5F19CF9F1623C53200F033A1 /* Readme.markdown in Resources */,
-				5F19D0F21623C57100F033A1 /* .gitignore in Resources */,
-				5F19D1211623C57100F033A1 /* LICENSE in Resources */,
-				5F19D1221623C57100F033A1 /* readme.markdown in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -547,7 +520,6 @@
 				5F19CF6B1623C53200F033A1 /* NSString+Paragraphs.m in Sources */,
 				5F19CF6C1623C53200F033A1 /* NSString+UTF8Cleaner.m in Sources */,
 				5F19CF6D1623C53200F033A1 /* UIDevice+DTSimpleVersion.m in Sources */,
-				5F19D0FB1623C57100F033A1 /* DTHTMLParser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
