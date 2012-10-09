@@ -58,6 +58,7 @@
     }
     NSString *string =  [_showing objectAtIndex:indexPath.row];
     cell.textLabel.text = string;
+    NSLog(@"%@, %@", string, _selected);
     if ([_selected containsObject:string]) {
         cell.accessoryType = UITableViewCellAccessoryCheckmark;
     }else {
@@ -77,8 +78,6 @@
         [_textField removeObjectWithPredicate:[NSPredicate predicateWithFormat:@"indentifier == %@", string]];
     }else {
         [_selected addObject:string];
-        UITableViewCell *cell = [tableView cellForRowAtIndexPath:indexPath];
-        cell.accessoryType = UITableViewCellAccessoryCheckmark;
         
         MTTextObject *object = [[MTTextObject alloc] init];
         object.textLabel.text = string;

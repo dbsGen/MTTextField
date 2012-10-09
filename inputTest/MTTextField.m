@@ -14,6 +14,9 @@
 
 const NSString *kSPTextMarkIndentifier  = @"SPTextMarkIndentifier";
 
+unsigned char default_css[] = "";
+unsigned int default_css_len = 0;
+
 @interface SPTextPosition : UITextPosition
 <NSCopying>
 
